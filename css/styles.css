@@ -85,7 +85,7 @@ body, html {
     font-weight: bold;
 }
 .modal {
-    display: block; /* Change this to 'none' in your JavaScript to close the modal */
+    display: none; /* Change this to 'none' in your JavaScript to close the modal */
     position: fixed;
     z-index: 1;
     left: 0;
@@ -97,7 +97,7 @@ body, html {
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #323232;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
